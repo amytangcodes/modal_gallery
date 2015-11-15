@@ -1,3 +1,3 @@
 # modal_gallery
 
-Project for class
+Little gallery project creating a modal gallery.
