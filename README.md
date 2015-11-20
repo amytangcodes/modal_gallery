@@ -1,4 +1,4 @@
-# modal_gallery
+# A Modal Gallery
 
 Little gallery project creating a modal gallery.
 
