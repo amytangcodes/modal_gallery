@@ -2,6 +2,7 @@ var modalApp = {};
 // --------------------------------------------
 // DECLARE VARS 
 	var $gallery_image = $('#gallery .image'); 
+	var $gallery = $('#gallery');
 	var $overlay = $('.overlay');
 	var $close = $('.close-btn');
 	var $modalImg = $('.overlay .full-image img');
@@ -30,7 +31,9 @@ var modalApp = {};
 		});
 		$overlay.on('click', function() {
 			modalApp.hideModal();
-		});
+		});		
+		var year = new Date().getFullYear();
+		$('#year').html(year);
 	}
 
 // --------------------------------------------
