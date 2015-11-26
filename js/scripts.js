@@ -32,25 +32,3 @@ var modalApp = {};
 			modalApp.hideModal();
 		});
 	}
-
-// --------------------------------------------
-// DOCUMENT READY  	
-	$(function(){
-		modalApp.init();
-	});
-
-
-// $(document).ready(function(){
-//     var link = $(".imgModal"),
-//           modal = $(".modal"),
-//           img = $(".modal img");
-
-//     link.click(function(){
-//         modal.css({"display":"block"});
-//         img.attr("src", $(this).find("img").attr("src"));
-//     });
-
-//     modal.click(function(){
-//         modal.css({"display":"none"});
-//     });
-// });
